@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع بيع حسابات فيفا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header>
+        <nav>
+            <div class="logo">حسابات فيفا</div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#accounts">الحسابات</a></li>
+                <li><a href="#payment">طرق الدفع</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- الصفحة الرئيسية -->
+    <section id="home" class="hero">
+        <h1>شراء حسابات فيفا بأفضل الأسعار!</h1>
+        <p>احصل على حسابات جاهزة بمختلف المستويات والنقاط.</p>
+    </section>
+
+    <!-- قسم الحسابات -->
+    <section id="accounts" class="accounts-section">
+        <h2>قائمة الحسابات المتاحة</h2>
+        <div class="account-card">
+            <h3>حساب فيفا - المستوى 50</h3>
+            <p>نقاط: 500</p>
+            <p>السعر: 50 جنيه مصري</p>
+            <button onclick="showPaymentDetails()">اشتر الآن</button>
+        </div>
+        <div class="account-card">
+            <h3>حساب فيفا - المستوى 70</h3>
+            <p>نقاط: 1000</p>
+            <p>السعر: 100 جنيه مصري</p>
+            <button onclick="showPaymentDetails()">اشتر الآن</button>
+        </div>
+    </section>
+
+    <!-- قسم طرق الدفع -->
+    <section id="payment" class="payment-section">
+        <h2>طرق الدفع</h2>
+        <p>يمكنك الدفع عبر فودافون كاش:</p>
+        <p><strong>رقم فودافون كاش:</strong> 01002977593</p>
+        <p>بعد إتمام الدفع، أرسل إيصال الدفع عبر WhatsApp إلى الرقم التالي: 01223324561</p>
+    </section>
+
+    <!-- قسم تواصل معنا -->
+    <section id="contact" class="contact-section">
+        <h2>تواصل معنا</h2>
+        <p>لديك أي استفسارات؟ اتصل بنا:</p>
+        <p>WhatsApp: 01223324561</p>
+        <p>Email: support@fifaaccounts.com</p>
+    </section>
+
+    <!-- قدم الصفحة -->
+    <footer>
+        <p>&copy; 2023 موقع بيع حسابات فيفا. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <!-- نصipt للتعامل مع الزر -->
+    <script>
+        function showPaymentDetails() {
+            alert("يرجى الدفع عبر فودافون كاش إلى الرقم: 01002977593. بعد الدفع، أرسل إيصال الدفع عبر WhatsApp.");
+        }
+    </script>
+</body>
+</html>

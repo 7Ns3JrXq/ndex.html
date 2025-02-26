@@ -1,0 +1,96 @@
+/* تعيين الخط العام */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* تصميم شريط التنقل */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* تصميم الصفحة الرئيسية */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+/* تصميم قسم الحسابات */
+.accounts-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.account-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.account-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-card button:hover {
+    background-color: #0056b3;
+}
+
+/* تصميم قسم طرق الدفع */
+.payment-section {
+    padding: 50px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+/* تصميم قسم تواصل معنا */
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* تصميم قدم الصفحة */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+}
